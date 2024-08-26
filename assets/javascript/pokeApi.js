@@ -4,7 +4,7 @@ const pokeApi = {}
 function convertPokemonDetailedToPokemon(pokemonDetailed) {
     const pokemon = new Pokemon()
     pokemon.name = pokemonDetailed.name;
-    pokemon.order = pokemonDetailed.order;
+    pokemon.order = pokemonDetailed.id;
 
     const types = pokemonDetailed.types.map((typeSlot) => typeSlot.type.name);
     const [type0] = types;
