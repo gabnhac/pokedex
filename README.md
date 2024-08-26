@@ -1,3 +1,5 @@
+Anotações de estudos
+
 URL (Uniform Resource Locator): https://pokeapi.co/api/v2/pokemon/1/
 Composição da URL: ${IP(endereço)/Path(caminho do recurso)}
 
